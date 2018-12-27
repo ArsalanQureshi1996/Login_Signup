@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+h1{
+  color:blueviolet;
+  font-style: italic;
+  font-weight: 700;
+}
+.form-control{
+  width: 100%;
+  align-content: center;
+}
+
+.formSet{
+width: 100%;
+float: left;
+text-align: center;
+}
+.form-group{
+  display: inline-block;
+  width: 50%;
+text-align: left !important;
+
+}
+.buttos{
+  display: inline-block;
+  
+}
+.form-group-btn{
+float: left;
+width: 100%;
+text-align: center;
+}

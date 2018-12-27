@@ -1,0 +1,43 @@
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheets\style.css">
+</head>
+<title>Register</title>
+<body>
+    {{#if error}}
+        {{#each error}}
+            <div class="alert alert-danger">{{msg}} </div>
+        {{/each}}
+    {{/if}}
+    <form method="POST">
+        <h2 class="HeaderSet">Register</h2>
+            <div class="formSet">
+                <h1>Flight Reservation</h1>
+                    <div class="form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" placeholder="username" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Password" required/>
+                    </div>
+                    <div class="form-group">
+                        <label for="Password2">Confirm Password</label>
+                        <input type="password" class="form-control" name="password2" placeholder="Password2" required/>
+                    </div>
+                    
+                    <div class="form-group-btn">
+                     <button type="submit" class="buttos">Signup</button>
+                   </div>
+            </div>
+
+            
+
+
+        </form>
+</body>
+</html>

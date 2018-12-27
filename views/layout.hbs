@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div>
+      <div>
+        {{#if success_msg}}
+        <div class="alert alert_success">{{success_msg}}</div>
+        {{/if}}
+
+        {{#if error_msg}}
+        <div class="alert alert_danger">{{error_msg}}</div>
+        {{/if}}
+
+        {{#if error}}
+        <div class="alert alert_danger">{{error}}</div>
+        {{/if}}
+      </div>
+    </div>
+    {{{body}}}
+  </body>
+</html>
